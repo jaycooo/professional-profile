@@ -1,8 +1,10 @@
 /* color variables for easier to remember names */
 :root {
-    --primary: #6169df;
-    --secondary: #42a3cf;
-    --pop: #873636;
+    --primary: #060707;
+    --secondary: #091013;
+    --pop: #f7f7f7;
+
+    
 }
 
 /* remove default CSS styling */
@@ -13,6 +15,7 @@
 }
 
 /* general settings for all body styling */
+body {};
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary);
@@ -23,14 +26,13 @@ body {
 header {
     background-color: var(--primary);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
 }
 
-header div {
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
-}
+
+
 
 header h1 {
     color: var(--pop);
@@ -39,11 +41,13 @@ header h1 {
     background-color: var(--secondary);
     padding: 10px;
     border: 5px solid var(--pop);
+
+    
 }
 
 header a {
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--pop);
 }
 
 header nav ul {
@@ -75,7 +79,7 @@ header nav ul li a:hover {
 
 /* hero styling start */
 .hero {
-    background-image: url("../images/brickwall.jpg");
+    background-image: url("https://cdn.britannica.com/56/194256-050-0DACD0D3/Concept-illustration-world-countries-trade-relationships.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -93,7 +97,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: end;
     text-align: right;
-    color: lightgray;
+    color: rgb(12, 12, 12);
 }
 
 .hero .quote #quote-text {
@@ -138,11 +142,11 @@ header nav ul li a:hover {
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
-    background-color: var(--primary);
+    background-color: var(--secondary);
 }
 
 .my-work h2 {
-    color: var(--secondary);
+    color: var(--pop);
 }
 
 .projects-grid-wrapper {
@@ -162,7 +166,7 @@ header nav ul li a:hover {
 
 .project {
     border: solid;
-    color: black;
+    color: rgb(248, 248, 248);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
